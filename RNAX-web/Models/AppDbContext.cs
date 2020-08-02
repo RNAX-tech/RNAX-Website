@@ -4,15 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Xamarin.Essentials;
 
 namespace RNAX_web.Models
 {
-    public class User
+    public class AppDbContext : IdentityDbContext
     {
-        public string Email { get; set; }
-        public string password { get; set; }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
 
-        public Project projects { get; set; }
+        }
+
     }
 }
