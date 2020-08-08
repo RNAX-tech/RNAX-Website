@@ -9,6 +9,10 @@ namespace RNAX_web.Models
     public interface IUserRepository
     {
         User User(int Id);
+        IEnumerable<User> GetAllUsers();
+        User Add(User user);
+        User Update(User userchanges);
+        User Delete(int Id);
     }
 
 }
