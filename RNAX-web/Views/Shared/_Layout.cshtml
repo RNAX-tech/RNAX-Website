@@ -17,7 +17,7 @@
             </a>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
@@ -26,41 +26,10 @@
                     <a class="nav-link" asp-controller="Home" asp-action="Privacy">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Login/Signup</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Login">Login/Signup</a>
                 </li>
             </ul>
-
-        <nav class="navbar navbar-expand-md" style="background-color: black;">
-            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  >Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mx-auto order-0">
-                <a class="navbar-brand mx-auto" href="#">
-                    <img src="~/images/RNAX.png" width="70" alt="RNAX Logo"/>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Home" asp-action="Login">Login/Signup</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
+        </nav>   
     </header>
     <div class="container">
         <main role="main" class="pb-3">
