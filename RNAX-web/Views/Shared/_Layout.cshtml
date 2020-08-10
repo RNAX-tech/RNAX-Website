@@ -6,9 +6,30 @@
     <title>@ViewData["Title"] - RNAX_web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/indexstyle.css" />
 </head>
 <body>
     <header>
+
+        <nav class="navbar navbar-expand-lg border-bottom" style="background-color: black;">
+            <a class="navbar-brand" href="#">
+                <img src="~/images/RNAX.png" width="80" alt="RNAX Logo" />
+            </a>
+            <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Login/Signup</a>
+                </li>
+            </ul>
+
         <nav class="navbar navbar-expand-md" style="background-color: black;">
             <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                 <ul class="navbar-nav mr-auto">
@@ -19,7 +40,7 @@
                         <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  asp-controller="Home" asp-action="Privacy">Contact Us</a>
+                        <a class="nav-link"  >Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -38,6 +59,7 @@
                     </li>
                 </ul>
             </div>
+
         </nav>
     </header>
     <div class="container">
@@ -45,10 +67,12 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
+
+
             &copy; 2020 - RNAX_web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Contact Us</a>
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
