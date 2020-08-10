@@ -1,0 +1,46 @@
+﻿@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    background: url(../images/pexels-rodolfo-clix-1366942.jpg) center center no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .jumbotron h2 {
+        font-family: Lato;
+        color: white;
+        background-color: white;
+        background-image: linear-gradient(to right, #7dffeb, #ebed1c);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -mox-text-fill-color: transparent;
+        margin: 0px;
+    }
+
+.jumbotron h3 {
+    font-family: Lato;
+    color: white;
+    margin-top: 10px;
+}
