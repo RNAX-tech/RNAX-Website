@@ -3,11 +3,13 @@
     ViewData["Title"] = "Login";
 }
 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="~/css/site.css" />
+
+<link href="~/css/site.css" rel="stylesheet" />
+<link href="~/css/LoginProfileContactUs.css" rel="stylesheet" />
 
 <div class="card-group">
     <div class="card">
-        
+
         <div class="card-body">
             <h5 class="card-title">Log In</h5>
             <p>
@@ -18,14 +20,11 @@
                 <h6>Password</h6>
                 <input type="password" />
             </p>
-
-            <p><button class="btn-primary">Log In through Facebook</button></p>
-            <p><button class="btn-primary">Log In through Google</button></p>
-            <p><button ><a class="nav-link" asp-controller="Home" asp-action="Profile">Log In</a></button></p>
+            <p><button class="submit-button"><a class="nav-link" asp-controller="Home" asp-action="Profile">Log In</a></button></p>
         </div>
     </div>
     <div class="card">
-        
+
         <div class="card-body">
             <h5 class="card-title">Sign Up</h5>
             <p class="card-body">
@@ -46,11 +45,11 @@
                 <input type="password" />
             </p>
 
-            <button class="btn-primary">Sign Up</button>
+            <button class="submit-button">Sign Up</button>
 
         </div>
     </div>
-    </div>
+</div>
 
 
-    
+
