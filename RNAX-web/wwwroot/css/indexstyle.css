@@ -3,7 +3,7 @@
     src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
 }
 
-@font-face{
+@font-face {
     font-family: 'Lato';
     src: url('../fonts/Lato-Regular.ttf') format('truetype');
 }
@@ -39,8 +39,29 @@ main {
         margin: 0px;
     }
 
-.jumbotron h3 {
-    font-family: Lato;
-    color: white;
-    margin-top: 10px;
+    .jumbotron h3 {
+        font-family: Lato;
+        color: white;
+        margin-top: 10px;
+    }
+
+.working {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+}
+.video {
+    margin: 1rem;
+}
+.intro-text {
+    margin: 1rem;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text-heading {
+    text-decoration: underline;
 }
