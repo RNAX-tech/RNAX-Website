@@ -40,10 +40,16 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
     justify-content: space-evenly;
 }
+
+.working-image {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .video {
     margin: 1rem;
 }
@@ -57,4 +63,18 @@ main {
 .text-heading {
     text-decoration: underline;
     color: white;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .working {
+        flex-direction: column;
+    }
+
+    .working-image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
