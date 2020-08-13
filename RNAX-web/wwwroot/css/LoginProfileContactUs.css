@@ -1,0 +1,24 @@
+﻿body {
+    background: linear-gradient(to bottom, rgb(0, 204, 204), rgba(255, 255, 51, 0.4));
+    font-size: 1.15em;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px;
+}
+
+.submit-button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: thick;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: deepskyblue;
+    background: rgb(255, 255, 255);
+    
+}
