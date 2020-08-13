@@ -64,7 +64,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background: linear-gradient(to bottom, rgb(0,204,204), rgba(255,255,51,0.4));
+    background-color: #0A1624;
     background-size: 100%;
 }
 

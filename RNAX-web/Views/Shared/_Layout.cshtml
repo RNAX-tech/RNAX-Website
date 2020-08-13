@@ -11,21 +11,21 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg border-bottom" style="background-color: black;">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
                 <img src="~/images/RNAX.png" width="80" alt="RNAX Logo" />
             </a>
             <ul class="nav navbar-nav flex-fill w-100 justify-content-end">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="AboutUs">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" asp-controller="Home" asp-action="Privacy">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Login/Signup</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Login">Login/Signup</a>
                 </li>
             </ul>
         </nav>
