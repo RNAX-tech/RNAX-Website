@@ -34,7 +34,7 @@ namespace RNAX_web.Controllers
             return View();
         }
 
-        public IActionResult Profile()
+        public IActionResult AboutUs()
         {
             return View();
         }

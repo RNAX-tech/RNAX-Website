@@ -1,8 +1,10 @@
 ﻿body {
-    background: linear-gradient(to bottom, rgb(0, 204, 204), rgba(255, 255, 51, 0.4));
+    background-color: #0A1624;
+    background-size: 100%;
     font-size: 1.15em;
     text-align: justify;
     font-family: "Lato", sans-serif;
+    color: white;
 }
 
 input, textarea {
@@ -20,5 +22,4 @@ input, textarea {
     font-size: 20px;
     color: deepskyblue;
     background: rgb(255, 255, 255);
-    
 }
