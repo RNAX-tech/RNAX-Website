@@ -1,5 +1,4 @@
-﻿
-main {
+﻿main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,25 +35,13 @@ main {
         margin-top: 10px;
     }
 
-.working {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    justify-content: space-evenly;
-}
-.video {
-    margin: 1rem;
-}
-.intro-text {
-    margin: 1rem;
-    font-size: 18px;
-    text-align: justify;
+.team-text{
     color: white;
+    text-decoration: underline;
 }
 
-.text-heading {
-    text-decoration: underline;
+.team-about {
     color: white;
+    margin-bottom: 50px;
+    text-align: justify;
 }
